@@ -20,7 +20,7 @@ namespace Suizalab.Citas.Application.DataBase.Cita.Queries.GetCitaByDocumento
         public async Task<List<GetCitaByDocumentoModel>> Execute(string numeroDocumento)
         {
             var entity = await _dataBaseService.Cita.
-                FirstOrDefaultAsync(x => x.NumeroDocumento.Equals(numeroDocumento));
+                FirstOrDefaultAsync(x => x.NumeroDocumento ==numeroDocumento);
             return _mapper.Map<List<GetCitaByDocumentoModel>>(entity);
         }
     }
