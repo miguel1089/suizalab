@@ -15,3 +15,7 @@
 /src/Suizalab.Citas.Persistence/bin/Debug/net6.0
 /src/Suizalab.Citas.Persistence/obj
 /.vs/ProjectEvaluation
+/src/Suizalab.Citas.Application/bin/Release/net6.0
+/src/Suizalab.Citas.External/bin/Release/net6.0
+/src/Suizalab.Citas.Persistence/bin/Release/net6.0
+/src/Suizalab.Citas.Api/bin/Release/net6.0
